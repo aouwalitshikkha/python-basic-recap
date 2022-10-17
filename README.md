@@ -41,3 +41,22 @@ Convert one type to another type
 4. Logical Operators: and , or , not
 5. Identity Operators : is, is not
 6. Membership Operators: is , not in
+
+## python list
+1. List is sequence of data, mulitple value or data can be stored
+2. access: listname[indexnumber]
+```python
+fruits = ['Banana', 'Mango', 'Apple]
+fruits[1]
+```
+3. List element can be changed
+```python
+fruits = ['Banana', 'Mango', 'Apple]
+fruits[1]='Orange'
+print(fruits)
+# output: ['Banana', 'Orange', 'Apple]
+```
+4. Adding Element to the list: Listname.append(Data) - at the end of the list, list.insert(index, data) at index position
+5. List element remove: list.pop()-- last element will removed, list.pop(2)-- index item 2 will be removed
+6. remove by value: list.remove(data), list.clear -- empty list 
+
