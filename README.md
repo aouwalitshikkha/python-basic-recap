@@ -60,3 +60,29 @@ print(fruits)
 5. List element remove: list.pop()-- last element will removed, list.pop(2)-- index item 2 will be removed
 6. remove by value: list.remove(data), list.clear -- empty list 
 
+## Dictionary
+1.  used to store data values in key:value pairs.
+2. Access: 
+```python
+mobile = {'model':'I phone 16', 'price': 380000}
+mobile['price'] # 380000
+mobile.getitem('model')
+```
+3. Change or add
+```python
+mobile = {'model':'I phone 16', 'price': 380000}
+mobile['price'] = 50000 
+mobile.getitem({'model':'I phone 16'})
+```
+4. remove 
+```python
+mobile = {'model':'I phone 16', 'price': 380000}
+mobile.pop('price')
+```
+
+5. Keys or values list 
+```python
+mobile = {'model':'I phone 16', 'price': 380000}
+mobile.keys()
+mobile.values()
+```
