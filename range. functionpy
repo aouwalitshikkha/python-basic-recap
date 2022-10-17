@@ -1,0 +1,13 @@
+# print(list(range(2,10, 2)))
+
+
+my_filename = 'Aouwal.jpg'
+# file_list = my_filename.split('.')
+# print(file_list)
+# if file_list[-1] == 'jpg':
+#     print('it is image File')
+# else:
+#     print('It is not image')
+
+if my_filename.endswith('.jpg'):
+    print('it is image file')

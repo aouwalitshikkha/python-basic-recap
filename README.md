@@ -86,3 +86,29 @@ mobile = {'model':'I phone 16', 'price': 380000}
 mobile.keys()
 mobile.values()
 ```
+
+## Python If Else 
+1. Python conditon: 
+```python
+# syntax  
+#  if condtion(true)
+        # Code
+a = 200
+b = 33
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+else:
+  print("a is greater than b")
+
+```
+
+## While loop
+
+```python
+i = 1
+while i < 6:
+  print(i)
+  i += 1
+```
